@@ -3,7 +3,7 @@
 * Some of the most famous design patterns separated by packages.
 * Java is used as the main language.
 * This project is for educational and quick reference purposes.
-* References: Head First Design Patter - Eric Freeman.
+* References: Head First Design Patterns - Eric Freeman.
 
 ## Getting Started
 
