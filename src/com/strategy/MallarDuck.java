@@ -1,7 +1,7 @@
-package com.supertypes;
+package com.strategy;
 
-import com.supertypes.behaviors.FlyWithWings;
-import com.supertypes.behaviors.Quack;
+import com.strategy.behaviors.FlyWithWings;
+import com.strategy.behaviors.Quack;
 
 public class MallarDuck extends Duck {
 

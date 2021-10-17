@@ -1,4 +1,4 @@
-package com.supertypes.interfaces;
+package com.strategy.interfaces;
 
 public interface QuackBehavior {
     public void quack();

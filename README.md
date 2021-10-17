@@ -5,6 +5,14 @@
 * This project is for educational and quick reference purposes.
 * References: Head First Design Patterns - Eric Freeman.
 
+## Patterns
+
+* Strategy: Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+    * Principles: 
+        * Identify the aspects of your application that vary and separate them from what stays the same.
+        * Program to an interface, not an implementation. (Supertypes).
+        * Favor composition over inheritance.
+
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.

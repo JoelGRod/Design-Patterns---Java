@@ -1,7 +1,7 @@
-package com.supertypes;
+package com.strategy;
 
-import com.supertypes.behaviors.FlyNoWay;
-import com.supertypes.behaviors.Quack;
+import com.strategy.behaviors.FlyNoWay;
+import com.strategy.behaviors.Quack;
 
 public class ModelDuck extends Duck {
 

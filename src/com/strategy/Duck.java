@@ -1,6 +1,6 @@
-package com.supertypes;
+package com.strategy;
 
-import com.supertypes.interfaces.*;
+import com.strategy.interfaces.*;
 
 public abstract class Duck {
     FlyBehavior flyBehavior;

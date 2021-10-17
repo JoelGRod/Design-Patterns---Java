@@ -1,14 +1,14 @@
-// Basic
-import com.supertypes.Duck;
-import com.supertypes.MallarDuck;
-import com.supertypes.ModelDuck;
-import com.supertypes.behaviors.FlyRocketPow;
+// Strategy
+import com.strategy.Duck;
+import com.strategy.MallarDuck;
+import com.strategy.ModelDuck;
+import com.strategy.behaviors.FlyRocketPow;
 
 public class App {
     public static void main(String[] args) throws Exception {
         // System.out.println("Hello, World!");
 
-        // Basic
+        // Strategy
         Duck mallarDuck = new MallarDuck();
         mallarDuck.performFly();
         mallarDuck.performQuack();

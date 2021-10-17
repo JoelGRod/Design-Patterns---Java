@@ -1,5 +1,6 @@
-package com.supertypes.behaviors;
-import com.supertypes.interfaces.FlyBehavior;
+package com.strategy.behaviors;
+
+import com.strategy.interfaces.FlyBehavior;
 
 public class FlyNoWay implements FlyBehavior {
     public void fly() {

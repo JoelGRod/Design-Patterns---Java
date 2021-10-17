@@ -1,6 +1,6 @@
-package com.supertypes.behaviors;
+package com.strategy.behaviors;
 
-import com.supertypes.interfaces.QuackBehavior;
+import com.strategy.interfaces.QuackBehavior;
 
 public class MuteQuack implements QuackBehavior {
 

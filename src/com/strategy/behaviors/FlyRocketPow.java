@@ -1,6 +1,6 @@
-package com.supertypes.behaviors;
+package com.strategy.behaviors;
 
-import com.supertypes.interfaces.FlyBehavior;
+import com.strategy.interfaces.FlyBehavior;
 
 public class FlyRocketPow implements FlyBehavior {
 
