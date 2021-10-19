@@ -3,6 +3,11 @@ import com.strategy.Duck;
 import com.strategy.MallarDuck;
 import com.strategy.ModelDuck;
 import com.strategy.behaviors.FlyRocketPow;
+// Observer
+import com.observer.CurrentConditionsDisplay;
+import com.observer.ForecastDisplay;
+import com.observer.StaticsDisplay;
+import com.observer.WeatherData;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -17,5 +22,15 @@ public class App {
         modelDuck.performFly();
         modelDuck.setFlyBehavior( new FlyRocketPow() );
         modelDuck.performFly();
+
+        // Observer
+        WeatherData weatherData = new WeatherData();
+        CurrentConditionsDisplay cd = new CurrentConditionsDisplay(weatherData);
+        ForecastDisplay fd = new ForecastDisplay(weatherData);
+        StaticsDisplay sd = new StaticsDisplay(weatherData);
+
+        weatherData.setMeasurements(80, 65, 30.4f);
+        weatherData.setMeasurements(82, 70, 29.2f);
+        weatherData.setMeasurements(78, 90, 29.2f);
     }
 }
