@@ -7,13 +7,13 @@ import com.observer.interfaces.Subject;
 
 public class WeatherData implements Subject {
 
-    private ArrayList observers;
+    private ArrayList<Observer> observers;
     private float temp;
     private float humidity;
     private float pressure;
 
     public WeatherData() {
-        this.observers = new ArrayList();
+        this.observers = new ArrayList<Observer>();
     }
 
     public void registerObserver(Observer o) {

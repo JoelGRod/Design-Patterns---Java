@@ -18,7 +18,7 @@ public class CurrentConditionsDisplay implements Display, Observer {
 
     public void display() {
         System.out.println(
-            " -------------------- \n"
+            "-------------------- \n"
             + "Weather conditions: \n"
             + "Temp: " + this.temp + "º C \n"
             + "Humidity: " + this.humidity + "% \n"
