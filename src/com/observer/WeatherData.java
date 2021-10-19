@@ -28,6 +28,7 @@ public class WeatherData implements Subject {
     public void notifyObservers() {
         for( int i = 0; i < this.observers.size(); i++ ) {
             Observer observer = (Observer)this.observers.get(i);
+            // Better pass the entire object with public getters?
             observer.update(this.temp, this.humidity, this.pressure);
         }
     }
@@ -43,5 +44,5 @@ public class WeatherData implements Subject {
         this.measurementsChanged();
     }
 
-    // Extra methods here
+    // Extra methods here -> public Getters
 }
