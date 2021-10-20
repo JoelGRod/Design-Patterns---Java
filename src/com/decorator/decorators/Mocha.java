@@ -10,6 +10,10 @@ public class Mocha extends CondimentDecorator {
         this.beverage = beverage;
     }
 
+    public String getSize() {
+        return this.beverage.getSize();
+    }
+
     public float cost() {
         return this.beverage.cost() + 0.20f;
     }
