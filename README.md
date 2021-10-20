@@ -15,6 +15,9 @@
 * Observer: Defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
     * Principles:
         * Strive for loosely coupled designs between objects that interact.
+* Decorator: Attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+    * Principles:
+        * Classes should be open for extension, but closed for modification.
 
 ## Getting Started
 
