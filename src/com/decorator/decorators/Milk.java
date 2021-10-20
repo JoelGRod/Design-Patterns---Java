@@ -14,6 +14,10 @@ public class Milk extends CondimentDecorator {
         return this.beverage.getSize();
     }
 
+    public void setSize( String size ) {
+        this.beverage.setSize(size);
+    }
+
     public float cost() {
         return this.beverage.cost() + 0.10f;
     }

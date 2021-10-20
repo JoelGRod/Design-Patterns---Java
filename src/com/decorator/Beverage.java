@@ -6,7 +6,7 @@ public abstract class Beverage {
     public String size = "medium";
 
     public String getDescription() {
-        return this.description + " " + this.getSize();
+        return this.description;
     }
 
     public void setSize(String size) {
