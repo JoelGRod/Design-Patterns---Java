@@ -26,9 +26,11 @@
             * Depend upon abstractions. Do not depend upon concrete classes.
         * Notes:
             * Is used for create one product.
+            * The goal is to separate the products and return one of them.
     * The Abstract Factory Pattern: Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
         * Notes:
-            * Is used to create famuly of products.
+            * Is used to create family of products.
+            * The goal is to separate the products and return a family of them.
 
 ## Getting Started
 
