@@ -18,6 +18,10 @@ import com.decorator.decorators.Milk;
 import com.decorator.decorators.Mocha;
 import com.decorator.decorators.Soy;
 import com.decorator.decorators.Whip;
+import com.factory.factoryabstract.GCPizzaStore;
+// Factory Abstract
+import com.factory.factoryabstract.PizzaStore;
+import com.factory.factoryabstract.TfPizzaStore;
 
 
 public class App {
@@ -79,5 +83,19 @@ public class App {
             " - $" + beverage4.cost());
         System.out.println("--------");
 
+        // Factory Abstract
+        PizzaStore tfPizzaStore = new TfPizzaStore();
+        tfPizzaStore.orderPizza("clam");
+
+        System.out.println("-------------------------");
+        
+        PizzaStore gcPizzaStore = new GCPizzaStore();
+        gcPizzaStore.orderPizza("clam");
+
+        System.out.println("-------------------------");
+        
+        gcPizzaStore.orderPizza("veggie");
+
+        System.out.println("--------");
     }
 }

@@ -2,11 +2,11 @@ package com.factory.factoryabstract.pizzas;
 
 import com.factory.factoryabstract.factory.PizzaIngredientFactory;
 
-public class ClamPizza extends Pizza {
+public class PepperoniPizza extends Pizza {
 
     PizzaIngredientFactory ingredientFactory;
 
-    public ClamPizza(PizzaIngredientFactory ingredientFactory ) {
+    public PepperoniPizza( PizzaIngredientFactory ingredientFactory ) {
         this.ingredientFactory = ingredientFactory;
     }
 
@@ -21,9 +21,9 @@ public class ClamPizza extends Pizza {
 
         this.cheese = this.ingredientFactory.createCheese();
         System.out.println("Adding: " + this.cheese.toString());
-        
-        this.clams = this.ingredientFactory.createClam();
-        System.out.println("Adding: " + this.clams.toString());
+
+        this.pepperoni = this.ingredientFactory.createPepperoni();
+        System.out.println("Adding: " + this.pepperoni.toString());
     }
-     
+    
 }
