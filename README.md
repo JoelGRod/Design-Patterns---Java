@@ -20,9 +20,11 @@
         * Classes should be open for extension, but closed for modification.
     * Notes:
         * Recursive behavior.
-* Factory: Defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
-    * Principles:
-        * Depend upon abstractions. Do not depend upon concrete classes.
+* Factory: 
+    * The Factory Method Pattern: Defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
+        * Principles:
+            * Depend upon abstractions. Do not depend upon concrete classes.
+    * The Abstract Factory Pattern: Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 
 ## Getting Started
 
