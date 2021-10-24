@@ -18,11 +18,10 @@ import com.decorator.decorators.Milk;
 import com.decorator.decorators.Mocha;
 import com.decorator.decorators.Soy;
 import com.decorator.decorators.Whip;
-import com.factory.factoryabstract.GCPizzaStore;
 // Factory Abstract
 import com.factory.factoryabstract.PizzaStore;
 import com.factory.factoryabstract.TfPizzaStore;
-
+import com.factory.factoryabstract.GCPizzaStore;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -93,7 +92,7 @@ public class App {
         gcPizzaStore.orderPizza("clam");
 
         System.out.println("-------------------------");
-        
+
         gcPizzaStore.orderPizza("veggie");
 
         System.out.println("--------");
